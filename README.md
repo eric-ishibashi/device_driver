@@ -8,11 +8,11 @@
 OS:Ubuntu 18.04
 
 ## 使用器具
-・Raspberry Pi4 1個
-・ブレットボート（EIC-801）1個
-・赤色LED(10mm) 5個
-・ジャンパーワイヤ（オスメス）10cm 10本
-・炭素被膜抵抗　330Ω　1/4W　5個
+・Raspberry Pi4 1個<br>
+・ブレットボート（EIC-801）1個<br>
+・赤色LED(10mm) 5個<br>
+・ジャンパーワイヤ（オスメス）10cm 10本<br>
+・炭素被膜抵抗　330Ω　1/4W　5個<br>
 
 ## インストール
 ```
@@ -20,8 +20,21 @@ $ git clone https://github.com/eric-ishibashi/device_driver.git]
 ```
 
 ## 動作方法
-make→sudo rmmmod myled.ko→sudo chmod 666/dev/myled0→echo 0>/dev/myled0
-
+```
+make
+```
+↓
+```
+sudo rmmmod myled.ko
+```
+↓
+```
+sudo chmod 666/dev/myled0
+```
+↓
+```
+echo 0>/dev/myled0
+```
 ## 製作者
 19C1007 石橋英陸
 
