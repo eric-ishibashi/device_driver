@@ -15,8 +15,10 @@ OS:Ubuntu 18.04
 ・炭素被膜抵抗　330Ω　1/4W　5個
 
 ## インストール
-[$ git clone https://github.com/eric-ishibashi/device_driver.git]
- 
+```
+$ git clone https://github.com/eric-ishibashi/device_driver.git]
+```
+
 ## 動作方法
 make→sudo rmmmod myled.ko→sudo chmod 666/dev/myled0→echo 0>/dev/myled0
 
@@ -24,3 +26,8 @@ make→sudo rmmmod myled.ko→sudo chmod 666/dev/myled0→echo 0>/dev/myled0
 19C1007 石橋英陸
 
 ## 動画
+https://youtu.be/mt3DpGMseac
+
+## ライセンス
+[GNU General Public Licence v3.0](https://github.com/kiyoshirou-kawanabe/Robosys_Devicedriver/blob/main/COPYING)
+
